@@ -19,10 +19,9 @@ local options = {
   -- in an 'undofile'
   undofile = false,
 
-  -- makes tab expand to spaces
-  expandtab = true,
+  expandtab = true,     -- makes tab expand to spaces
   tabstop = 2,          -- number of columns an existing <TAB> will occupy
-  shiftwidth = 2,       -- when indenting with '>', use 2 column width
+  shiftwidth = 2,       -- when indenting with '>' or autoindent with =, use 2 column width
   softtabstop = 2,      -- pressing tab inserts 2 columns
   shiftround = true,    -- make indentation a multiple of shiftwidth always
 
