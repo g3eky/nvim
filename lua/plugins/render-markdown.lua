@@ -5,7 +5,7 @@
 -- currently will only enable render markdown in nerd fonts are enabled
 if vim.g.nerd_font_enabled then
   return {
-    "MeanderingProgrammer/render-markdown.nvim", enabled = true,
+    "MeanderingProgrammer/render-markdown.nvim", enabled = false,
     name = "render-markdown",
     dependencies = {
       "nvim-treesitter/nvim-treesitter",
